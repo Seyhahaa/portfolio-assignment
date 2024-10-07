@@ -1,6 +1,6 @@
 <template>
-  <div class="ml-[90px] grid grid-cols-1 md:grid-cols-4">
-    <div class="col-span-3 mt-[8rem]">
+  <div class="ml-[90px] grid grid-cols-1 md:grid-cols-3">
+    <div class="col-span-2 mt-[8rem]">
       
       <AboutComponent />
       <Footer />

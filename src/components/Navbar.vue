@@ -30,8 +30,8 @@
   const menu = [
     { name: 'Home', link: '/'},
     { name: 'About', link: '/about'  },
-    { name: 'Services' },
-    { name: 'Projects' },
-    { name: 'Contact' },
+    { name: 'Services', link: '/services'},
+    { name: 'Projects', link: '/projects'},
+    { name: 'Contact', link: '/contact'},
 ]
 </script>
