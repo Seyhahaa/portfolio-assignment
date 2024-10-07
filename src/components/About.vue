@@ -1,18 +1,28 @@
 <template>
-    <div class='mt-12 px-44 text-center flex flex-col items-center'>
-        <h2 class='text-[40px] font-bold'>Hi! My name is Seyha, I'm Full Stack Developer based in North Tbong Khmum</h2>
-        <v-icon name="co-double-quote-sans-left"  scale="2.5" class='bg-green-500 p-3 rounded-full text-white' />
-        <h2 class='my-5 text-gray-400 text-[14px]'>
-            I am passionate and dedicated UI/UX designer with a strong focus on creation exceptioonal user experience. I thrive on tranforming complex ideas into intuitive and visually appealing designs. With a keen eye for detail and a user-centered approach. I strive to deliver impactful solutions that engage and delight users.Let's collaborate to bring your digital products to life!
-            <div>
-                <button class="mt-5">Read more</button>
-            </div>
-            
-        </h2>
-        <v-icon name="co-double-quote-sans-right"  scale="2.5" class='bg-green-500 p-3 rounded-full text-white' />
+  <div class="ml-[90px] grid grid-cols-1 md:grid-cols-4">
+    <div class="col-span-3 mt-[8rem]">
+      
+      <AboutComponent />
+      <Footer />
     </div>
+    <div>
+      <ProgressBar />
+      <div v-if="$route.params.about === 'bio'">
+        
+        <Bio />
+      </div>
+      <div v-else>
+        <div class='fixed mt-[90px]'>
+            <img src='https://images.pexels.com/photos/6929027/pexels-photo-6929027.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' class='h-screen object-cover'  />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script setup>
-const router = defineProps(['route'])
-
+import ProgressBar from "./ProgressBar.vue";
+import ProfilePic from "./ProfilePic.vue";
+import Bio from "./Bio.vue";
+import AboutComponent from "./AboutComponent.vue";
+import Footer from "./Footer.vue";
 </script>
