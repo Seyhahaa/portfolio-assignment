@@ -10,7 +10,7 @@
     <div>
       <ProgressBar />
       <div class='fixed mt-[90px]'>
-            <img src='https://images.pexels.com/photos/25437427/pexels-photo-25437427/free-photo-of-computer-monitor-displaying-lines-of-code.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' class='h-screen object-fill'  />
+            <img src='/homepage.jpeg' class='h-screen object-fill'  />
         </div>
     </div>
   </div>
