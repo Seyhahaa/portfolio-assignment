@@ -10,15 +10,12 @@
     <div>
       <ProgressBar />
       <div class='fixed mt-[90px]'>
-            <img src='/homepage.jpeg' class='h-screen object-fill'  />
+            <img src='https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=600' class='h-screen object-fill'  />
         </div>
     </div>
   </div>
 </template>
   <script setup>
-import Navbar from "@/components/Navbar.vue";
-import Sidebar from "@/components/Sidebar.vue";
-import ProfilePic from "@/components/ProfilePic.vue";
 import ProgressBar from "@/components/ProgressBar.vue";
 import Introduction from "@/components/Introduction.vue";
 import Service from "@/components/Service.vue";

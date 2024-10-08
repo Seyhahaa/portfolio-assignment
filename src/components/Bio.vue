@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-[8rem] h-full w-full px-5">
+  <div class="mt-[8rem]  w-full px-5">
     <h1 class="text-center text-3xl mb-5">ប្រវត្តិរូបដោយសង្ខេប</h1>
     <p class="mb-5">
       &nbsp;&nbsp;&nbsp;ខ្ញុំបាទឈ្មេាះ
