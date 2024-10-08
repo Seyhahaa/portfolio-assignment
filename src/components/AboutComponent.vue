@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-12 px-44 text-center flex flex-col items-center">
+    <div class="mt-8 px-44 text-center flex flex-col items-center">
         <h2 class="text-[40px] font-bold">
           Hi! My name is Seyha, I'm Full Stack Developer based in North Tbong
           Khmum
@@ -9,7 +9,7 @@
           scale="2.5"
           class="bg-green-500 p-3 rounded-full text-white"
         />
-        <h2 class="my-5 text-gray-400 text-[14px]">
+        <h2 class="my-5 text-gray-600 text-[14px]">
           I am passionate and dedicated UI/UX designer with a strong focus on
           creation exceptioonal user experience. I thrive on tranforming complex
           ideas into intuitive and visually appealing designs. With a keen eye

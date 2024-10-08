@@ -1,26 +1,26 @@
 <template>
-    <div class="px-12 mt-10 ">
+    <div class="px-8 mt-10 ">
     <div class="flex items-center">
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
             <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
             <h2 class="text-[24px] font-bold">CONTACT</h2>
             <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
-        </div>
-    <div class="flex justify-between w-full gap-5 mt-10">
-        
+    </div>
+    <h2 class="font-bold text-2xl">Get in touch</h2>    
+    <div class="flex justify-between w-full gap-5 mt-5">    
         <div>
             <div class="ml-5">
-                <h2>E-MAIL</h2>
-                <v-icon name="md-email-round" class="text-gray-400" /><span class="text-[16px] text-gray-400 mt-2">:Jbseyha@gmail.com</span>
-                <h2 class="mt-5">TELEGRAM</h2>
-                <v-icon name="bi-telegram" class="text-gray-400" /><span class="text-[16px] text-gray-400 mt-2">:+855 93 274 166</span>
+                <h2 class="mb-3">E-MAIL</h2>
+                <v-icon name="md-email-round" class="text-gray-600" /><span class="text-[16px] text-gray-600">:Jbseyha@gmail.com</span>
+                <h2 class="mt-5 mb-3">TELEGRAM</h2>
+                <v-icon name="bi-telegram" class="text-gray-600" /><span class="text-[16px] text-gray-600">:+855 93 274 166</span>
             </div>
         </div>
-        <div class="w-[50%]">
+        <div class="w-[50%] -mt-6">
             <label
             for="UserEmail"
-            class="relative block overflow-hidden border-b border-gray-200 bg-transparent pt-3 focus-within:border-blue-600">
+            class="relative block overflow-hidden border-b border-black bg-transparent pt-3 focus-within:border-blue-600">
             <input
                 type="email"
                 id="UserEmail"
@@ -34,11 +34,11 @@
           
 
             <div class="mt-5">
-                <label for="OrderNotes" class="sr-only">Order notes</label>
+                <label for="" class="sr-only">Order notes</label>
             
                 <div class="overflow-hidden">
                 <textarea
-                    id="OrderNotes"
+                    id=""
                     class="border-b w-full resize-none border-x-0 border-t-0 border-gray-200 px-0 align-top sm:text-sm"
                     rows="4"
                     placeholder="Your Messages..."></textarea>
