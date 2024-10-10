@@ -16,11 +16,7 @@
           for detail and a user-centered approach. I strive to deliver impactful
           solutions that engage and delight users.Let's collaborate to bring
           your digital products to life!
-          <div>
-            <router-link to="/bio"
-              ><button class="mt-5">Read more</button></router-link
-            >
-          </div>
+          
         </h2>
         <v-icon
           name="co-double-quote-sans-right"

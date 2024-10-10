@@ -1,31 +1,22 @@
 <template>
-
-    <!------ Include the above in your HEAD tag ---------->
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="error-template">
-                    <h1>
-                        Oops!</h1>
-                    <h2>
-                        404 Not Found</h2>
-                    <div class="error-details">
-                        Sorry, an error has occured, Requested page not found!
-                    </div>
-                    <div class="error-actions">
-                        <router-link to="/" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                            Take Me Home </router-link><router-link to="/" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </router-link>
-                    </div>
-                </div>
-            </div>
+    <!--
+      This example requires updating your template:
+  
+      ```
+      <html class="h-full">
+      <body class="h-full">
+      ```
+    -->
+    <main class="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
+      <div class="text-center">
+        <p class="text-base font-semibold text-indigo-600">404</p>
+        <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Page not found</h1>
+        <p class="mt-6 text-base leading-7 text-gray-600">Sorry, we couldn’t find the page you’re looking for.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <router-link to="/" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Go back home</router-link>
+          <a href="#" class="text-sm font-semibold text-gray-900">Contact support <span aria-hidden="true">&rarr;</span></a>
         </div>
-    </div>
-    
-    </template>
-    <style>
-    
-    .error-template {padding: 40px 15px;text-align: center;}
-    .error-actions {margin-top:15px;margin-bottom:15px;}
-    .error-actions .btn { margin-right:10px; }
-    </style>
+      </div>
+    </main>
+  </template>
+  
