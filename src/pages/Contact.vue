@@ -23,8 +23,8 @@
             </p>
     
             <div class="mt-8">
-              <a href="#" class="text-2xl font-bold text-pink-600"> 093 274 166</a>
-              <a href="#" class="text-2xl font-bold text-pink-600"> Jbseyha@gmail.com</a>
+              <a href="#" class="text-2xl font-bold text-green-600"> 093 274 166</a><br />
+              <a href="#" class="text-2xl font-bold text-green-600"> Jbseyha@gmail.com</a>
     
               <address class="mt-2 not-italic">282 Bkk, Phnom Penh, Cambodia</address>
             </div>
