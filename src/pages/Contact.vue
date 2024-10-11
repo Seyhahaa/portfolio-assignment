@@ -8,9 +8,9 @@
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex items-center mb-5">
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
-            <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
-            <h2 class="text-[24px] font-bold">CONTACT</h2>
-            <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
+            <div class='w-[36%] border-[1px] mx-4 mt-[-2px]'></div>
+            <h2 class="text-[24px] font-bold uppercase">{{  $t('Contact') }}</h2>
+            <div class='w-[36%] border-[1px] mx-4 mt-[-2px]'></div>
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
         </div>
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">

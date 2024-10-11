@@ -2,9 +2,9 @@
   <div class="px-8 mt-12">
         <div class="flex items-center">
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
-            <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
-            <h2 class="text-[24px] font-bold">SERVICES</h2>
-            <div class='w-full border-[1px] mx-4 mt-[-2px]'></div>
+            <div class='w-[36%] border-[1px] mx-4 mt-[-2px]'></div>
+            <span class="text-[24px] font-bold uppercase">{{ $t('Services') }}</span>
+            <div class='w-[36%] border-[1px] mx-4 mt-[-2px]'></div>
             <div class='w-[20px] h-[7px] bg-green-600 rounded-full'></div>
         </div>
         <div class="flex justify-around mt-16 ">
@@ -33,32 +33,28 @@
 </template>
 
 <script setup>
-import ServiceDetail from '@/components/ServiceDetail.vue';
+import ServiceDetail from '@/components/serviceDetail/design.vue';
 const servicesList = [
         {
             id: 1,
             title: 'UX|UI DESIGN',
             desc: 'Elevate your online presence with captivating user interfaces and semless experiences',
             logo: "/design.png",
-            link:'/service/uxui-design',
-            detail: {
-                desc: 'This is UXUI design',
-                img: 'https://i.pinimg.com/564x/3e/c4/aa/3ec4aa97edd2a620067069466b141c9c.jpg',
-            }
+            link:'/service/design',
         },
         {
             id:2,
             title: 'BACKEND DEV',
             desc: 'Developing application backend and server side development using various backend technology',
             logo: "/backend.png",
-            link:'/service/backend-development'
+            link:'/service/backend'
         },
         {
             id:3,
             title:'FRONTEND DEV',
             desc: 'Teaching programming and coding on various platform like yourtube, Udemy etc. Free Course to the students',
             logo: "/teaching.png",
-            link:'/service/frontend-Development'
+            link:'/service/frontend'
         }
     ];
 </script>

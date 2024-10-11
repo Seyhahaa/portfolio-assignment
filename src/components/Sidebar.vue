@@ -2,7 +2,7 @@
     <div className="w-[90px] h-screen border-r-[1px] fixed flex flex-col items-center justify-around mt-[90px] bg-white ">
         <h2 className='-rotate-90 tracking-widest text-[1.5rem]'>
             <span v-if="($route.fullPath ==='/')">HOMEPAGE</span>
-            <span v-else class="uppercase">{{ $route.fullPath.slice(1) }}</span>
+            <span v-else class="uppercase">{{ $route.name.__name }}</span>
         </h2>
         <div className='flex flex-col gap-7 mb-10'>
             <v-icon name="bi-github" scale="2" class='cursor-pointer hover:scale-110 hover:text-green-600 transition-all ease-in-out' />
