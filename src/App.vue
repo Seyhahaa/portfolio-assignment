@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <HamburgerMenu />
   <div class="hidden md:block">
     <Sidebar />
   </div>
@@ -7,6 +7,7 @@
   
 </template>
 <script setup>
+import HamburgerMenu from './components/HamburgerMenu.vue';
 import Navbar from './components/Navbar.vue';
 import Sidebar from './components/Sidebar.vue';
 </script>

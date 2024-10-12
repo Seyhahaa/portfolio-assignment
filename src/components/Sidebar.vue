@@ -1,5 +1,5 @@
 <template>
-    <div className="w-[90px] h-screen border-r-[1px] fixed flex flex-col items-center justify-around mt-[90px] bg-white ">
+    <div className="w-[90px] h-screen border-r-[1px] fixed flex flex-col items-center justify-around mt-[68px] bg-white ">
         <h2 className='-rotate-90 tracking-widest text-[1.5rem]'>
             <span v-if="($route.fullPath ==='/')">HOMEPAGE</span>
             <span v-else class="uppercase">{{ $route.name.__name }}</span>

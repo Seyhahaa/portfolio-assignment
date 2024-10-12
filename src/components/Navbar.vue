@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex items-center justify-between border-b-[1px] fixed w-full z-10 bg-white"
-  >
+  <div class="flex items-center justify-between border-b-[1px] fixed w-full z-10 bg-white">
     <div class="w-[90px] h-[90px]">
       <img src="/logo.png" alt="" class="p-3 text-green-600" />
     </div>
@@ -9,8 +7,7 @@
       <div
         v-for="(item, index) in menu"
         :key="index"
-        class="cursor-pointer hover:underline uppercase"
-      >
+        class="cursor-pointer hover:underline uppercase">
         <router-link :to="item.link"
           ><h2 class="text-xl">{{ $t(item.name) }}</h2></router-link
         >

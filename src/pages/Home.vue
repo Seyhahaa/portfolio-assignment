@@ -9,7 +9,7 @@
     </div>
     <div>
       <ProgressBar />
-      <div class='fixed mt-[90px]'>
+      <div class='fixed mt-[68px]'>
             <img src='https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=600' class='h-screen object-fill'  />
         </div>
     </div>
