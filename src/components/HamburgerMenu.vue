@@ -12,7 +12,7 @@
         :key="index"
         class="cursor-pointer hover:underline uppercase">
         <router-link :to="item.link"
-          ><h2 class="text-xl">{{ $t(item.name) }}</h2></router-link
+          ><h2 @click="coloseMenu" class="text-xl">{{ $t(item.name) }}</h2></router-link
         >
       </div>
       </div>
@@ -52,6 +52,9 @@
     },
       toggleMenu() {
         this.isMenuOpen = !this.isMenuOpen
+      },
+      coloseMenu(){
+        this.isMenuOpen = false
       },
       checkScreenSize() {
         this.isMobile = window.innerWidth <= 768
