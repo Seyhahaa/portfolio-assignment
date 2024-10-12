@@ -1,5 +1,5 @@
 <template>
-    <div class="ml-[90px] grid grid-cols-1 md:grid-cols-3">
+    <div class="ml-0 md:ml-[90px] grid grid-cols-1 md:grid-cols-3">
       <div class="col-span-3 mt-[8rem]">
         <div class="px-8">
           <div class="flex items-center mb-5">
@@ -9,8 +9,8 @@
             <div class="w-full border-[1px] mx-4 mt-[-2px]"></div>
             <div class="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
           </div>
-          <p class="text-gray-500 mb-3"><em>Note: All this content are get from jsonplaceholder API</em></p>
-          <div class="grid grid-cols-2 gap-6">
+          <p class="text-gray-500 mb-3"><em>Note: All these content are get from jsonplaceholder API</em></p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <article
           v-for="(item,index) in data" :key="index"
             class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]">

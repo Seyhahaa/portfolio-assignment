@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <Sidebar />
+  <div class="hidden md:block">
+    <Sidebar />
+  </div>
   <router-view />
   
 </template>

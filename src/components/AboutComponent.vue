@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-8 px-44 text-center flex flex-col items-center">
+    <div class="mt-8 px-6 md:px-10 lg:px-44 text-center flex flex-col items-center">
         <h2 class="text-[40px] font-bold">
           {{ $t('message') }}
         </h2>

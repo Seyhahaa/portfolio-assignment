@@ -3,7 +3,10 @@
     <div class="col-span-2 mt-[8rem]">
       
       <AboutComponent />
-      <Footer />
+      <div class="hidden lg:block">
+
+        <Footer />
+      </div>
     </div>
     <div>
       <ProgressBar />     

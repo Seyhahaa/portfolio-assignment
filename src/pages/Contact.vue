@@ -1,7 +1,7 @@
 
 
 <template>
-  <div class="ml-[90px] grid grid-cols-1 md:grid-cols-3">
+  <div class="ml-0 md:ml-[90px] grid grid-cols-1 md:grid-cols-3">
     <div class="col-span-3 mt-[8rem]">
         
     <section class="bg-gray-100">

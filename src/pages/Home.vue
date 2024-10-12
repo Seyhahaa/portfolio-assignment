@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-[90px] grid grid-cols-1 md:grid-cols-3">
+  <div class="ml-0 md:ml-[90px] grid grid-cols-1 md:grid-cols-3">
     <div class="col-span-2 mt-[60px]">
       <Introduction />
       <AboutComponent />
